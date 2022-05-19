@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+
+:root {
+  --button-color: #FF9411;
+  --black1-color: #212529;
+  --black2-color: #0b0b0c;
+  --greyPrice-color: #939393;
+  --greyLink-color: #666666;
+  --redPrice-color: #FF004C;
+  --grey2-color: #B6B3B3;
+  --greyMenu-color: #E5E5E5;
+  --greyMain-color: #EDEDED;
+  --redPromo-color: #FF0000;
+  --greenPromo-color: #CCC500;
+  --yellowPromo-color: #FFAE00;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: var(--greyMain-color);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 140rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--greyMain-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--greyPrice-color);
+  transition: all .3s ease-in-out;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.animeLeft {
+  transform: translateX(-20px);
+  opacity: 0;
+  animation: animeLeft .3s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+/* Alteração arrow slick */
+
+.slick-prev, .slick-next {
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+  z-index: 100;
+  padding: .2rem;
+  cursor: pointer;
+  border-radius: 6rem;
+}
+
+.slick-prev {
+  width: 2rem;
+  height: 3rem;
+  left: 1rem;
+  top: 14rem;
+}
+
+.slick-next {
+  width: 2rem;
+  height: 3rem;
+  right: 4rem;
+  top: 14rem;
+}
+
+.slick-dots {
+  display: none;
+}
