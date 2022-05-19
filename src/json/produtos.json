@@ -14,8 +14,7 @@
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [7.75, 8.0, 8.25],
   "image": [
-    "/static/images/shapes/element/blazin-white/shape-element-blazin-white.png",
-    "/static/images/shapes/element/blazin-white/shape-element-blazin-white2.png"
+    "/static/images/shapes/element/blazin-white/shape-element-blazin-white.png"
   ]
 },
 {
@@ -30,12 +29,11 @@
   "name": "Shape Element",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 50,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [7.75, 8.0, 8.25],
   "image": [
-    "/static/images/shapes/element/pearl/shape-element-pearl.png",
-    "/static/images/shapes/element/pearl/shape-element-pearl2.png"
+    "/static/images/shapes/element/pearl/shape-element-pearl.png"
   ]
 },
 {
@@ -50,12 +48,11 @@
   "name": "Shape Element",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 29,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [7.75, 8.0, 8.25],
   "image": [
-    "/static/images/shapes/element/shape-element-quadrant.png",
-    "/static/images/shapes/element/shape-element-quadrant2.png"
+    "/static/images/shapes/element/shape-element-quadrant.png"
   ]
 },
 {
@@ -70,7 +67,7 @@
   "name": "Shape Flip",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 34,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [7.75, 8.0, 8.25],
   "image": "/static/images/shapes/flip/blacklight/flip-skateboard-dekcs-gonzales.jpg"
@@ -87,7 +84,7 @@
   "name": "Shape Primitive",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 30,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [7.75, 8.0, 8.25],
   "image": "/static/images/shapes/primitive/dirtypdeck/dirty-removebg-preview.png"
@@ -104,7 +101,7 @@
   "name": "Shape Primitive",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 25,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [7.75, 8.0, 8.25],
   "image": "/static/images/shapes/primitive/shoto/shot-removebg-preview.png"
@@ -121,7 +118,7 @@
   "name": "Shape Primitive",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 13,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [7.75, 8.0, 8.25],
   "image": "/static/images/shapes/primitive/zaprazny/zaprazny-removebg-preview.png"
@@ -138,7 +135,7 @@
   "name": "Lixa Grizzly",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 20,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [],
   "image": "/static/images/lixas/grizzly/grizzly-blue1.png"
@@ -155,7 +152,7 @@
   "name": "Lixa Grizzly",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 42,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [],
   "image": "/static/images/lixas/grizzly/grizzly-tie1.png"
@@ -172,7 +169,7 @@
   "name": "Lixa Grizzly",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 20,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [],
   "image": "/static/images/rodas/bones/bones-cj-collins1.png"
@@ -189,7 +186,7 @@
   "name": "Roda Mini Logo",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 60,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [],
   "image": "/static/images/rodas/minilogo/minilogo-assorted1.png"
@@ -206,7 +203,7 @@
   "name": "Roda Moog",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 48,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [],
   "image": "/static/images/rodas/moog/moog-verde1.png"
@@ -223,7 +220,7 @@
   "name": "Roda Wheels",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 42,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [],
   "image": "/static/images/rodas/wheels/villa-haze1.png"
@@ -240,7 +237,7 @@
   "name": "Rolamento Black Sheep",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 40,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [],
   "image": "/static/images/rolamentos/black-sheep/black1.png"
@@ -257,7 +254,7 @@
   "name": "Rolamento Black Sheep",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 31,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [],
   "image": "/static/images/rolamentos/black-sheep/gold1.png"
@@ -274,7 +271,7 @@
   "name": "Rolamento Black Sheep",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 35,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [],
   "image": "/static/images/rolamentos/black-sheep/red1.png"
@@ -291,7 +288,7 @@
   "name": "Rolamento Crail",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 30,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [],
   "image": "/static/images/rolamentos/crail/crail1.png"
@@ -308,7 +305,7 @@
   "name": "Rolamento Diamond",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 29,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [],
   "image": "/static/images/rolamentos/diamond/diamond-aberto1.png"
@@ -325,7 +322,7 @@
   "name": "Rolamento Red Bones",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 15,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [],
   "image": "/static/images/rolamentos/redbones/redbones1.png"
@@ -359,7 +356,7 @@
   "name": "Truck Intruder",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 55,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [],
   "image": "/static/images/trucks/intruder/intruder-solid.png"
@@ -376,7 +373,7 @@
   "name": "Truck Thunder",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": 10,
+  "discount": 45,
   "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
   "sizes": [],
   "image": "/static/images/trucks/thunder/thunder.png"

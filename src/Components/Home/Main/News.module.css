@@ -27,14 +27,55 @@
 
 .containerItem {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   width: 24rem;
-  height: 33rem;
+  height: auto;
   background-color: #fff;
-  padding-top: 1rem;
+  padding: 1rem;
 }
 
 .containerItem img {
   width: 22.7rem;
   height: 25.9rem;
+}
+
+.contentItem1 {
+  display: flex;
+  justify-content: center;
+}
+
+.contentItem2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contentItem2 p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--black1-color);
+  margin: 1.5rem 0rem;
+}
+
+.contentItem2 span {
+  font-size: 1.5rem;
+  color: var(--black1-color);
+  margin-bottom: .1rem;
+
+}
+
+.contentItem2 .oldPrice {
+  font-size: 1.4rem;
+  color: var(--greyPrice-color);
+}
+
+.containerPromo {
+  display: flex;
+  width: 4rem;
+  padding: .2rem;
+  background-color: var(--redPromo-color);
+  color: #fff;
+  font-size: 1rem;
 }

@@ -44,6 +44,7 @@ body {
 a {
   color: var(--greyMain-color);
   text-decoration: none;
+  outline: none;
 }
 
 a:hover {

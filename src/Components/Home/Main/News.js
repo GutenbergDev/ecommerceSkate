@@ -43,14 +43,38 @@ const News = ({ slideNews }) => {
         {...settings}
       >
         {slide.map((produto) =>(
-          <NavLink
-            to={`/`}
+          <section
             key={produto.nameId}
           >
             <div className={styles.containerItem} key={produto.id}>
-              <img src={produto.image} alt={produto.name} />
+              <div className={styles.contentItem1}>
+                <NavLink 
+                  to={`/`}
+                >
+                  <img src={produto.image} alt={produto.name} />
+                </NavLink>
+              </div>
+
+              <div className={styles.contentItem2}>
+                <p>{produto.name}</p>
+                <span className={styles.oldPrice}>de R$ {(produto.OldPrice).toFixed(2)} por</span>
+                <span>6x de R$ {(produto.price / 6).toFixed(2)}</span>
+                <span><span className={styles.oldPrice}>ou</span> R$ {produto.price}<span className={styles.oldPrice}> à vista</span></span>
+              </div>
+
+              
+                {produto.discount <= 20 ? 
+                <div style={{ display: "flex", justifyContent: "center", backgroundColor: "#CCC500", width: "4rem", padding: ".2rem", fontSize: "1rem", color: "#fff"}}>
+                  <span >{produto.discount}%</span> 
+                </div>
+                :
+                <div style={{display: "flex", justifyContent: "center", backgroundColor: "#FF0000", width: "4rem", padding: ".2rem", fontSize: "1rem", color: "#fff" }}>
+                  <span>{produto.discount}%</span> 
+                </div>
+                }
+              
             </div>
-          </NavLink>
+          </section>
         ))}
       </Slider>
     </section>
