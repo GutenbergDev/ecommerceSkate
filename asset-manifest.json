@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ecommerceSkate/static/css/main.ee82ee6f.css",
+    "main.js": "/ecommerceSkate/static/js/main.30a83f2f.js",
+    "static/media/erro_404.png": "/ecommerceSkate/static/media/erro_404.6142a06f180700777a60.png",
+    "index.html": "/ecommerceSkate/index.html",
+    "main.ee82ee6f.css.map": "/ecommerceSkate/static/css/main.ee82ee6f.css.map",
+    "main.30a83f2f.js.map": "/ecommerceSkate/static/js/main.30a83f2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee82ee6f.css",
+    "static/js/main.30a83f2f.js"
+  ]
+}

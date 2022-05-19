@@ -1,0 +1,36 @@
+[
+  {
+  "userId": "ProdutoSlide",
+  "nameId": "flip",
+  "type": "old",
+  "product": "shape",
+  "brand": "Element",
+  "status": "new",
+  "model": "Street",
+  "id": 1,
+  "name": "Shapes Flip Blacklight",
+  "OldPrice": 0,
+  "price": 0,
+  "discount": 0,
+  "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
+  "sizes": [],
+  "image": "/static/images/banner/banner-flip.png"
+  },
+  {
+    "userId": "ProdutoSlide",
+    "nameId": "Inverno",
+    "type": "old",
+    "product": "shape",
+    "brand": "Promoção Inverno",
+    "status": "new",
+    "model": "Street",
+    "id": 2,
+    "name": "Shape Element",
+    "OldPrice": 0,
+    "price": 0,
+    "discount": 0,
+    "description": "SHAPE MAPLE ELEMENT BLAZIN Produto original de alta qualidade. Composição: 100% Madeira maple canadense. MKD SKATE SHOP - SKATE SHOP Element Skateboards",
+    "sizes": [],
+    "image": "/static/images/banner/banner-whinter.png"
+  }
+]
