@@ -70,12 +70,3 @@
   font-size: 1.4rem;
   color: var(--greyPrice-color);
 }
-
-.containerPromo {
-  display: flex;
-  width: 4rem;
-  padding: .2rem;
-  background-color: var(--redPromo-color);
-  color: #fff;
-  font-size: 1rem;
-}

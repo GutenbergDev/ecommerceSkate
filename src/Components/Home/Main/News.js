@@ -67,12 +67,19 @@ const News = ({ slideNews }) => {
                 <div style={{ display: "flex", justifyContent: "center", backgroundColor: "#CCC500", width: "4rem", padding: ".2rem", fontSize: "1rem", color: "#fff"}}>
                   <span >{produto.discount}%</span> 
                 </div>
+                : produto.discount <= 40 ?
+                <div style={{display: "flex", justifyContent: "center", backgroundColor: "#FFAE00", width: "4rem", padding: ".2rem", fontSize: "1rem", color: "#fff" }}>
+                  <span>{produto.discount}%</span> 
+                </div>
+                : produto.discount > 50 ?
+                <div style={{display: "flex", justifyContent: "center", backgroundColor: "#FF0000", width: "4rem", padding: ".2rem", fontSize: "1rem", color: "#fff" }}>
+                  <span>{produto.discount}%</span> 
+                </div>
                 :
                 <div style={{display: "flex", justifyContent: "center", backgroundColor: "#FF0000", width: "4rem", padding: ".2rem", fontSize: "1rem", color: "#fff" }}>
                   <span>{produto.discount}%</span> 
                 </div>
-                }
-              
+        }       
             </div>
           </section>
         ))}
