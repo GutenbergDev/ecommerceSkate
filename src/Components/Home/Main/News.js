@@ -8,7 +8,6 @@ import LeftArrow from '../../../images/icon/leftIcon.png';
 
 const News = ({ slideNews }) => {
   const slide = slideNews.filter((produtos) => produtos.status === 'new');
-  //console.log(slide)
 
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
     <img src={LeftArrow} alt="prevArrow" {...props} />
@@ -28,10 +27,9 @@ const News = ({ slideNews }) => {
     prevArrow: <SlickArrowLeft className={styles.LeftArrow} />,
     nextArrow: <SlickArrowRight className={styles.RightArrow} />
   };
-
   
 
-  //if(produtos === null) return null;
+  if(slide === null) return null;
   return (
     <section className={`${styles.container} animeLeft`}>
       <div className={styles.novos}>
@@ -49,7 +47,8 @@ const News = ({ slideNews }) => {
             <div className={styles.containerItem} key={produto.id}>
               <div className={styles.contentItem1}>
                 <NavLink 
-                  to={`/`}
+                  to={`/produto/${produto.nameId}`}
+                  key={produto.id}
                 >
                   <img src={produto.image} alt={produto.name} />
                 </NavLink>
@@ -63,7 +62,7 @@ const News = ({ slideNews }) => {
               </div>
 
               
-                {produto.discount <= 20 ? 
+              {produto.discount <= 20 ? 
                 <div style={{ display: "flex", justifyContent: "center", backgroundColor: "#CCC500", width: "4rem", padding: ".2rem", fontSize: "1rem", color: "#fff"}}>
                   <span >{produto.discount}%</span> 
                 </div>
@@ -79,7 +78,7 @@ const News = ({ slideNews }) => {
                 <div style={{display: "flex", justifyContent: "center", backgroundColor: "#FF0000", width: "4rem", padding: ".2rem", fontSize: "1rem", color: "#fff" }}>
                   <span>{produto.discount}%</span> 
                 </div>
-        }       
+                } 
             </div>
           </section>
         ))}

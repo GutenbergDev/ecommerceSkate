@@ -13,6 +13,7 @@ import Lixas from './Components/Header/Menu/Lixas';
 import DestaqueOne from './Components/Pages/DestaqueOne';
 import DestaqueTwo from './Components/Pages/DestaqueTwo';
 import "slick-carousel/slick/slick.css"; 
+import Produto from './Components/Pages/Produto';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
 
             <Route path='destaque-flip' element={<DestaqueOne />} />
             <Route path='destaque-inverno' element={<DestaqueTwo />} />
+            <Route path='produto/:nameId' element={<Produto />} />
 
             <Route path='*' element={<Pagina404 />} />
           </Routes>
