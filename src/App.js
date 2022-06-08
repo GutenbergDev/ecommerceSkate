@@ -34,6 +34,7 @@ function App() {
             <Route path='destaque-flip' element={<DestaqueOne />} />
             <Route path='destaque-inverno' element={<DestaqueTwo />} />
             <Route path='produto/:nameId' element={<Produto />} />
+            
 
             <Route path='*' element={<Pagina404 />} />
           </Routes>

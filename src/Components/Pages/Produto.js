@@ -1,10 +1,12 @@
 import React from 'react';
+import styles from './Produto.module.css';
 import { useParams } from 'react-router-dom';
 
 const Produto = () => {
   const [produto, setProduto] = React.useState(null);
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState(null);
+  //const [produtoIndex, setProdutoIndex] = React.useState(null);
 
   const { nameId } = useParams();
 
@@ -29,8 +31,8 @@ const Produto = () => {
   if(error) return <p>{error}</p>;
   if(produto === null) return null;
   return (
-    <section>
-      <h1>{produto.name}</h1>
+    <section className={`${styles.container2}`}>
+      <h1><img src={produto.image} alt='Imagem produto' /></h1>
     </section>
   )
 }

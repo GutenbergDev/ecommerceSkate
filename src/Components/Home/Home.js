@@ -3,6 +3,7 @@ import Head from '../Head/Head';
 import News from './Main/News';
 import SlideHomeMain from './Main/SlideHomeMain';
 import data from '../../json/produtos.json';
+import ShowCase from '../Pages/ShowCase';
 
 function Home() {
 
@@ -22,6 +23,7 @@ function Home() {
       <main>
         <SlideHomeMain produtoSlide={produtos} />
         <News slideNews={produtos} />
+        <ShowCase />
       </main>
     </>
   )

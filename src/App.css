@@ -41,6 +41,12 @@ body {
   margin: 0 auto;
 }
 
+.container1 {
+  max-width: 120rem;
+  padding: 0 0rem;
+  margin: 0 auto;
+}
+
 a {
   color: var(--greyMain-color);
   text-decoration: none;
