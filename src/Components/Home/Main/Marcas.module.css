@@ -1,0 +1,22 @@
+.novos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 3.7rem;
+  background-color: var(--button-color);
+  color: #fff;
+  font-size: 1.8rem;
+  margin: 4rem 1rem;
+  padding: 0 1rem;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container2 img {
+  width: 8rem;
+}

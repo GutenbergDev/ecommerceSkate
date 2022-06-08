@@ -4,6 +4,7 @@ import News from './Main/News';
 import SlideHomeMain from './Main/SlideHomeMain';
 import data from '../../json/produtos.json';
 import ShowCase from '../Pages/ShowCase';
+import Marcas from './Main/Marcas';
 
 function Home() {
 
@@ -24,6 +25,7 @@ function Home() {
         <SlideHomeMain produtoSlide={produtos} />
         <News slideNews={produtos} />
         <ShowCase />
+        <Marcas />
       </main>
     </>
   )
