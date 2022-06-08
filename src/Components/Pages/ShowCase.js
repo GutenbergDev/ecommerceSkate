@@ -5,7 +5,7 @@ import ShowCase2 from './ShowCase2';
 
 const ShowCase = () => {
   return (
-    <section className={styles.container2}>
+    <section className={`${styles.container2} animeLeft`}>
       <ShowCase1 />
       <ShowCase2 />
     </section>
