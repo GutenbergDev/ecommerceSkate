@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  /*background-color: aqua;
+  color: red;*/
+}
+
+.container h3 {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 500;
+}

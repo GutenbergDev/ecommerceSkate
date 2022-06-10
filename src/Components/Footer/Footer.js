@@ -1,9 +1,20 @@
 import React from 'react';
-//import styles from './Footer.module.css';
+import Atendimento from './Atendimento';
+import styles from './Footer.module.css';
+import Informacao from './Informacao';
+import Institucional from './Institucional';
+import SocialMedia from './SocialMedia';
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <section className={`${styles.container2}`}>
+      <div className={`${styles.container3} container`}>
+        <Institucional />
+        <Informacao />
+        <Atendimento />
+        <SocialMedia />
+      </div>
+    </section>
   )
 }
 
