@@ -6,6 +6,7 @@ const Institucional = () => {
     <section className={styles.container}>
       <div>
         <h3>Institucional</h3>
+        <p>Sk8</p>
       </div>
     </section>
   )

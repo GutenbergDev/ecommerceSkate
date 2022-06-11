@@ -14,6 +14,9 @@ function Footer() {
         <Atendimento />
         <SocialMedia />
       </div>
+      <div className={styles.copy}>
+        <p><span dangerouslySetInnerHTML={{ "__html": "&copy;" }} /> 2022 Desenvolvido por Gutemberg Medeiros</p>
+      </div>
     </section>
   )
 }
