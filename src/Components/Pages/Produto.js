@@ -29,8 +29,6 @@ const Produto = () => {
   }, [nameId])
 
  
-
-
   if(loading) return<div>Carregando...</div>;
   if(error) return <p>{error}</p>;
   if(produto === null) return null;
@@ -60,6 +58,7 @@ const Produto = () => {
         <h2>{produto.name}</h2>
         <p className={styles.oldPrice}>de R$ {produto.OldPrice.toFixed(2)}</p>
         <h3>por R$ {produto.price.toFixed(2)}</h3>
+        
         <span className={styles.vista}>R$ {produto.price.toFixed(2) - ((produto.price.toFixed(2)) * (produto.discount / 100)).toFixed(2)} à vista</span>
       </div>
     </section>
