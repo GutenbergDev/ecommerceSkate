@@ -45,4 +45,19 @@
 
 .parcelas {
   font-size: 1.4rem;
+  margin-top: 1rem;
+}
+
+.pricesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.sizePro {
+  background-color: #ccc;
+  margin-top: 2rem;
+  padding: .5rem 1rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  border: .2rem solid #B6B3B3;
 }
