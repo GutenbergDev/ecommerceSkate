@@ -27,8 +27,7 @@ const Produto = () => {
     }
     fetchProduto(`/static/json/produtos.json`);
   }, [nameId])
-
- 
+  
   if(loading) return<div>Carregando...</div>;
   if(error) return <p>{error}</p>;
   if(produto === null) return null;
@@ -52,14 +51,16 @@ const Produto = () => {
           </div>
           :
           <div style={{display: "flex", justifyContent: "center", backgroundColor: "#FF0000", width: "4rem", padding: ".2rem", fontSize: "1rem", color: "#fff" }}>
-            <span>{produto.discount}%</span> 
+            <span>{produto.discount}%</span>
           </div>
         }
         <h2>{produto.name}</h2>
         <p className={styles.oldPrice}>de R$ {produto.OldPrice.toFixed(2)}</p>
-        <h3>por R$ {produto.price.toFixed(2)}</h3>
+        <h3 className={`${styles.precoAtual}`}>por R$ {produto.price.toFixed(2)}</h3>
         
         <span className={styles.vista}>R$ {produto.price.toFixed(2) - ((produto.price.toFixed(2)) * (produto.discount / 100)).toFixed(2)} à vista</span>
+        <span className={styles.parcelas}>ou 10x sem juros de R$ {(produto.price / 10).toFixed(2)}</span>
+        <span style={{ fontWeight: "bold", fontSize: "1.3rem", marginTop: "1rem" }}>à vista com {produto.discount}% de desconto no boleto</span>
       </div>
     </section>
   )
